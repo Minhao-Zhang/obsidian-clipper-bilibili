@@ -61,6 +61,21 @@ jobs:
 
             If you want the official, store-distributed extension, use [obsidian.md/clipper](https://obsidian.md/clipper) or the [Chrome Web Store listing](https://chromewebstore.google.com/detail/obsidian-web-clipper/cnjifjpddelmedmihgijeibhnjfabmlf).
 
+            ### Installation (sideloading)
+
+            1. Download the zip for your browser from **Assets** on this page: `obsidian-web-clipper-fork-chrome.zip`, `obsidian-web-clipper-fork-firefox.zip`, or `obsidian-web-clipper-fork-safari.zip`.
+            2. **Chromium browsers** (Chrome, Edge, Brave, etc.): unzip the file, open `chrome://extensions` (`edge://extensions` for Edge, usually `brave://extensions` for Brave), enable **Developer mode**, choose **Load unpacked**, and select the extracted folder. Do not load the zip directly.
+            3. **Firefox**: unzip the file, open `about:debugging#/runtime/this-firefox`, choose **Load Temporary Add-on**, and select `manifest.json` from the extracted folder.
+            4. **Safari**: unzip the file and install it using the usual system and Apple workflow for Safari web extensions. If you need official support, use [obsidian.md/clipper](https://obsidian.md/clipper).
+
+            Sideloading is at your own risk. For the official store version and documentation, see [obsidian.md/clipper](https://obsidian.md/clipper).
+
+            ### 关于此版本
+
+            这是 [Obsidian Web Clipper](https://github.com/obsidianmd/obsidian-clipper) 的非官方 fork，包含个人工作流改动。与上游官方版的准确差异，请对比本仓库代码和提交记录。
+
+            如果你想使用官方商店分发的扩展，请使用 [obsidian.md/clipper](https://obsidian.md/clipper) 或 [Chrome Web Store 页面](https://chromewebstore.google.com/detail/obsidian-web-clipper/cnjifjpddelmedmihgijeibhnjfabmlf)。
+
             ### 安装说明（侧载）
 
             1. 在本页 **Assets** 下载与你的浏览器对应的 zip：`obsidian-web-clipper-fork-chrome.zip`、`obsidian-web-clipper-fork-firefox.zip` 或 `obsidian-web-clipper-fork-safari.zip`。  
